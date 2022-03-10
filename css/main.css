@@ -12,8 +12,8 @@ body{
     font-size: 26px;
 }
 .logo{
-    width: 180px;
-    height: 180px;
+    width: 135px;
+    height: 135px;
     border-radius: 180px;
     border: 2px solid black;
     background: rgb(20, 0, 134);
@@ -23,6 +23,54 @@ body{
 #bienvenida{
     width: 250px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;    
 }
+
+#home_button{
+    width: fit-content;
+    margin: 0 auto;
+
+}
+.nav_button{
+    border-radius: 25px;
+    height: fit-content;
+}
+.back_button{
+    width: fit-content;
+    margin-left: 14px;
+    margin-top: 10px;
+    
+}
+.profile_pic{
+    width: 135px;
+    height: 135px;
+    border-radius: 100px;
+    border: 2px solid black;
+    background: rgb(92, 89, 112);
+    margin: 0 auto;   
+}
+
+#hist{
+    text-align: center;
+}
+.profile_comment{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+}
+.prof_comment_button{
+    margin-top : 10px;
+    height: 85px;
+    width: 290px;
+    border-radius: 25px;
+}
+.direccion_perf{
+    text-align: left;
+    margin-bottom: 300px;
+    margin-top: 5px;
+}
+
+
+
