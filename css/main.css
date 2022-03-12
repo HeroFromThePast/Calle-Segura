@@ -1,9 +1,9 @@
 body{
-    background: rgb(8, 11, 59);
+    background: rgb(66, 72, 155);
 }
 .section{
     width:360px;
-    height: 600px;
+    height: 800px;
     background:rgb(158, 158, 158);
     margin-left: auto;
     margin-right: auto;
@@ -62,15 +62,149 @@ body{
 }
 .prof_comment_button{
     margin-top : 10px;
-    height: 85px;
+    height: 125px;
     width: 290px;
     border-radius: 25px;
 }
 .direccion_perf{
     text-align: left;
     margin-bottom: 300px;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 
+.form{
+    /* border: 3px solid green; */
+    border-top:2px solid black ;
+    padding: 30px 50px;
+    max-width: 400px;
+    margin: auto;
+    background:rgb(158, 158, 158);
+
+}
+.form-titulo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    letter-spacing: 3px;
+}
+.form-input{
+    margin-bottom: 5px;
+    margin-top: 5%;
+}
+.form-checkbox{
+    margin-top: 10%;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.form-input label{
+    display:block;
+    margin-top: 2px;
+    font-size: 12px;
+    color: black;
+}
+.form-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid black;
+}
+
+.form-input input:focus +label{
+    font-weight: bold;
+}
+
+.form-buttom input {
+    background: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;;
+    outline: none;
+
+
+}
+
+.form-buttom input:hover{
+    background: rgb(117, 117, 117);
+    transition: 0.5s;
+}
+
+.form_back{
+    border-radius: 25px;
+    height: fit-content;
+}
+.form-back{
+    width: fit-content;
+    margin-left: 6px;
+    margin-top: 21px;
+    
+}
+
+
+.incio-input{
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+.incio-input label{
+    display: block;
+    margin-top: 5px;
+    font-size: 15px;
+    
+    color: black;
+   
+}
+.incio-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid black;
+}
+.incio-input input:focus +label{
+    font-weight: bold;
+}
+
+.incio-buttom input{
+    background: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    margin-top: 10%;
+    font-size: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;;
+    outline: none;
+}
+.incio-buttom input:hover{
+    background: rgb(117, 117, 117);
+    transition: 0.5s;
+}
+
+.incio-titulo{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5%;
+    margin-top: 40%;
+    letter-spacing: 3px;
+}
+.Olvide{
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 28%;
+}
 
