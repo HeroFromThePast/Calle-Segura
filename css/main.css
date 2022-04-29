@@ -331,6 +331,15 @@ body{
         background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNjQiIGhlaWdodD0iNjQiCnZpZXdCb3g9IjAgMCAxNiAxNiIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDcuNSAxIEMgMy45MTc5NjkgMSAxIDMuOTE3OTY5IDEgNy41IEMgMSAxMS4wODIwMzEgMy45MTc5NjkgMTQgNy41IDE0IEMgMTEuMDgyMDMxIDE0IDE0IDExLjA4MjAzMSAxNCA3LjUgQyAxNCAzLjkxNzk2OSAxMS4wODIwMzEgMSA3LjUgMSBaIE0gNy41IDIgQyAxMC41NDI5NjkgMiAxMyA0LjQ1NzAzMSAxMyA3LjUgQyAxMyA4LjgzOTg0NCAxMi41MTk1MzEgMTAuMDY2NDA2IDExLjcyNjU2MyAxMS4wMTk1MzEgTCAzLjk4MDQ2OSAzLjI3MzQzOCBDIDQuOTMzNTk0IDIuNDgwNDY5IDYuMTYwMTU2IDIgNy41IDIgWiBNIDMuMjczNDM4IDMuOTgwNDY5IEwgMTEuMDE5NTMxIDExLjcyNjU2MyBDIDEwLjA2NjQwNiAxMi41MTk1MzEgOC44Mzk4NDQgMTMgNy41IDEzIEMgNC40NTcwMzEgMTMgMiAxMC41NDI5NjkgMiA3LjUgQyAyIDYuMTYwMTU2IDIuNDgwNDY5IDQuOTMzNTk0IDMuMjczNDM4IDMuOTgwNDY5IFoiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
         background-size: 100%; 
     }
+    .contenedor_comentario{
+        width: 360px;
+        height: 400px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        background-color: gray;
+        position: absolute;
+        top: 400px;
+    }
 }
 /*Para tablet ========================================================================================================================================================*/
 @media screen and (min-width: 834px) {
