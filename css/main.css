@@ -301,7 +301,6 @@ body{
         width: 60px;
         height: 60px;
         border-radius: 60px;
-        border: 1px solid black;
         background-color: azure;
         align-items: center;  
         overflow: hidden;
@@ -339,7 +338,48 @@ body{
         background-color: gray;
         position: absolute;
         top: 400px;
+        align-items: center;
     }
+    .icons8-burbuja-de-dialogo-vista2{
+        position: absolute;
+        display: inline-block;
+        width: 128px;
+        height: 128px;
+        background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIKdmlld0JveD0iMCAwIDE2IDE2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxwYXRoIGQ9Ik0gMi41IDIgQyAxLjY3NTc4MSAyIDEgMi42NzU3ODEgMSAzLjUgTCAxIDExLjUgQyAxIDEyLjMyNDIxOSAxLjY3NTc4MSAxMyAyLjUgMTMgTCA0IDEzIEwgNCAxNS40MzM1OTQgTCA3LjY1MjM0NCAxMyBMIDEyLjUgMTMgQyAxMy4zMjQyMTkgMTMgMTQgMTIuMzI0MjE5IDE0IDExLjUgTCAxNCAzLjUgQyAxNCAyLjY3NTc4MSAxMy4zMjQyMTkgMiAxMi41IDIgWiBNIDIuNSAzIEwgMTIuNSAzIEMgMTIuNzgxMjUgMyAxMyAzLjIxODc1IDEzIDMuNSBMIDEzIDExLjUgQyAxMyAxMS43ODEyNSAxMi43ODEyNSAxMiAxMi41IDEyIEwgNy4zNDc2NTYgMTIgTCA1IDEzLjU2NjQwNiBMIDUgMTIgTCAyLjUgMTIgQyAyLjIxODc1IDEyIDIgMTEuNzgxMjUgMiAxMS41IEwgMiAzLjUgQyAyIDMuMjE4NzUgMi4yMTg3NSAzIDIuNSAzIFoiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
+        background-size: 100%;
+    }
+    #comPrincipal{
+        left: 120px;
+        top: 250px;
+    }
+    .contenido_comentario{
+        position: absolute;
+        display: inline-block;
+        font-size: 20px;
+        width: 320px;
+        height: 380px;
+        border-radius: 40px;
+        top: 13px;
+        left: 20px;
+        background-color: rgb(216, 216, 216)      
+    }
+    .lugar_comentario{
+        font-size: 25px;
+    }
+    .icon_like{
+        position: absolute;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: url("../imgs/likeIcon.svg");
+    }
+    .volver{
+        width: 360px;
+        height: 400px;
+    }
+
+
+   
 }
 /*Para tablet ========================================================================================================================================================*/
 @media screen and (min-width: 834px) {
