@@ -118,6 +118,16 @@ body{
         letter-spacing: 3px;
         margin-right: 230px;
     }
+    .form-titulSs{
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:110px ;  
+        letter-spacing: 3px;
+        margin-right: -10px;
+    }
     .form-input{
         margin-bottom: 5px;
         margin-top: 5%;
