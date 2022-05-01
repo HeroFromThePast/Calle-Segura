@@ -73,11 +73,24 @@ body{
         border-radius: 25px;
     }
     .direccion_perf{
+        position: relative;
         text-align: left;
-        margin-bottom: 300px;
-        margin-top: 20px;
     }
-    
+    .contenido_comentario_perfil{
+        position: relative;
+    }
+    #dir_comentario1{
+        top: -12px;
+    }
+    #dir_comentario2{
+        top: -12px;
+    }
+    #comentario1_perfil{
+        top: -29px;
+    }
+    #comentario2_perfil{
+        top: -30px;
+    }
     
     .form{
         /* border: 3px solid green; */
