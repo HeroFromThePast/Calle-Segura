@@ -97,6 +97,27 @@ body{
         margin-top: 5%;
         letter-spacing: 3px;
     }
+
+    .form-tituloS{
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:170px ;  
+        letter-spacing: 3px;
+        margin-right: 230px;
+    }
+    .form-tituloSs{
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:17px ;  
+        letter-spacing: 3px;
+        margin-right: 230px;
+    }
     .form-input{
         margin-bottom: 5px;
         margin-top: 5%;
@@ -155,6 +176,15 @@ body{
         margin-top: 21px;
         
     }
+    .form-Search{
+       
+        margin-left: 0px;
+        margin-top: 7px;
+        color: rgb(0, 0, 0);
+        border: 20px solid rgb(72, 72, 72);
+        border-radius: 20px;
+    }
+   
     
     
     .incio-input{
@@ -234,10 +264,29 @@ body{
         justify-content: space-evenly;
         
     }
+    .barra_busqueda2{
+        display: flex;
+        align-items: center;
+        background-color: rgb(173, 173, 173);
+        margin: 0 auto;
+        margin-top:-60px;
+        margin-left: 100px;
+        width: 250px;
+        height: 55px;
+        border: 2px solid black;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        
+    }
     #donde_ir{
         font-size: 23px;
         margin-bottom: 10px;
         margin-top: 15px;
+    }
+    #donde_ir2{
+        font-size: 17px;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
     
     .search{
@@ -246,6 +295,16 @@ body{
         border-radius: 30px;
         margin-left: 150px;
         
+    }
+    .Barra{
+        position: relative;
+        width:100%;
+        height: 100%;
+        z-index: 0;
+        /*background-image: url("imgs/mapaMain.png");*/
+        background-color: aquamarine;
+
+
     }
     .map{
         position: relative;
@@ -286,6 +345,13 @@ body{
         left: 300px;
     }
     
+    .search_{
+        margin-left: 0px;
+        margin-top: 7px;
+        color: rgb(0, 0, 0);
+        border: 20px solid rgb(72, 72, 72);
+        border-radius: 20px;
+    }
     .bottom_menu{
         position: absolute;
         bottom: 0px;
