@@ -24,6 +24,16 @@ function irA(enlace){
         if(enlace == 'favoritos.html'){
                 location.href = enlace;
         } 
-        
+
+        if(enlace == 'InicioSesion.html'){
+                location.href = enlace;
+        } 
+
+        if(enlace == 'Registro.html'){
+                location.href = enlace;
+        } 
+        if(enlace == 'index.html'){
+                location.href = enlace;
+        } 
     
 }
