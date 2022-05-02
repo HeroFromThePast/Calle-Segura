@@ -186,6 +186,23 @@ body{
         margin-top: 21px;
         
     }
+
+    .form_generar{
+        border-radius: 25px;
+        height: fit-content;
+        z-index: 2;
+    }
+    .form-generar{
+        width: fit-content;
+        margin-left: 0px;
+      margin-top: 0px;
+        z-index: 1;
+        
+    }
+    #generar{
+        top: 400px;
+        left: 10px;
+    }
     .form-Search{
        
         margin-left: 0px;
@@ -354,6 +371,14 @@ body{
         top: 200px;
         left: 300px;
     }
+    #burbuja4{
+        top: 100px;
+        left: 200px;
+    }
+    #burbuja5{
+        top: 500px;
+        left: 20px;
+    }
     
     .search_{
         margin-left: 0px;
@@ -372,6 +397,10 @@ body{
         overflow: hidden;
         align-items: center;
         justify-content: space-evenly;
+    }
+    #Generarruta{
+        top: 250px;
+        left: 0px;
     }
     .footer_button{
         width: 60px;
