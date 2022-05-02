@@ -35,5 +35,20 @@ function irA(enlace){
         if(enlace == 'index.html'){
                 location.href = enlace;
         } 
+        if(enlace == 'barraBusqueda.html'){
+                location.href = enlace;
+        } 
+
+        if(enlace == 'generarRuta1.html'){
+                location.href = enlace;
+        } 
+
+        if(enlace == 'generarRuta2.html'){
+                location.href = enlace;
+        } 
+
+        if(enlace == 'vistaFavoritos.html'){
+                location.href = enlace;
+        } 
     
 }

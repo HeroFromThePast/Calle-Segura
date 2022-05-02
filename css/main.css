@@ -110,6 +110,36 @@ body{
         margin-top: 5%;
         letter-spacing: 3px;
     }
+    .form-tituloS{
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:170px ;  
+        letter-spacing: 3px;
+        margin-right: 230px;
+    }
+    .form-tituloSs{
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:17px ;  
+        letter-spacing: 3px;
+        margin-right: 230px;
+    }
+    .form-titulSs{
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:110px ;  
+        letter-spacing: 3px;
+        margin-right: -10px;
+    }
     .form-input{
         margin-bottom: 5px;
         margin-top: 5%;
@@ -168,7 +198,31 @@ body{
         margin-top: 21px;
         
     }
-    
+    .form_generar{
+        border-radius: 25px;
+        height: fit-content;
+        z-index: 2;
+    }
+    .form-generar{
+        width: fit-content;
+        margin-left: 0px;
+      margin-top: 0px;
+        z-index: 2;
+        
+    }
+    #generar{
+        top: 400px;
+        left: 10px;
+    }
+    .form-Search{
+       
+        margin-left: 0px;
+        margin-top: 7px;
+        color: rgb(0, 0, 0);
+        border: 20px solid rgb(72, 72, 72);
+        border-radius: 20px;
+    }
+   
     
     .incio-input{
         margin-bottom: 20px;
@@ -247,10 +301,29 @@ body{
         justify-content: space-evenly;
         
     }
+    .barra_busqueda2{
+        display: flex;
+        align-items: center;
+        background-color: rgb(173, 173, 173);
+        margin: 0 auto;
+        margin-top:-60px;
+        margin-left: 100px;
+        width: 250px;
+        height: 55px;
+        border: 2px solid black;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        
+    }
     #donde_ir{
         font-size: 23px;
         margin-bottom: 10px;
         margin-top: 15px;
+    }
+    #donde_ir2{
+        font-size: 17px;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
     
     .search{
@@ -298,7 +371,22 @@ body{
         top: 200px;
         left: 300px;
     }
+    #burbuja4{
+        top: 100px;
+        left: 200px;
+    }
+    #burbuja5{
+        top: 500px;
+        left: 20px;
+    }
     
+    .search_{
+        margin-left: 0px;
+        margin-top: 7px;
+        color: rgb(0, 0, 0);
+        border: 20px solid rgb(72, 72, 72);
+        border-radius: 20px;
+    }
     .bottom_menu{
         position: absolute;
         bottom: 0px;
@@ -309,6 +397,10 @@ body{
         overflow: hidden;
         align-items: center;
         justify-content: space-evenly;
+    }
+    #Generarruta{
+        top: 250px;
+        left: 0px;
     }
     .footer_button{
         width: 60px;
@@ -489,6 +581,13 @@ body{
         margin-left: 150px;
         
     }
+    .search_{
+        margin-left: 0px;
+        margin-top: 7px;
+        color: rgb(0, 0, 0);
+        border: 20px solid rgb(72, 72, 72);
+        border-radius: 20px;
+    }
     .icons8_location{
         position: absolute;
         width: 96px;
@@ -519,7 +618,14 @@ body{
         top: 531px;
         left: 663px;
     }
-    
+    #burbuja4{
+        top: 131px;
+        left: 203px;
+    }
+    #burbuja5{
+        top: 501px;
+        left: 30px;
+    }
     .bottom_menu{
         position: absolute;
         bottom: 0px;
@@ -540,7 +646,10 @@ body{
         overflow: hidden;
         margin-bottom: 4px;
     }
-    
+    #Generarruta{
+        top: 250px;
+        left: 0px;
+    }
     .icons8_user{
         position: absolute;
         display: inline-block;
@@ -647,6 +756,56 @@ body{
         left: 20px;
         background-color: rgb(216, 216, 216)      
     }
+    .form-tituloS{
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:170px ;  
+        letter-spacing: 3px;
+        margin-left: -600px;
+    }
+    .form-tituloSs{
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:17px ;  
+        letter-spacing: 3px;
+        margin-left: -600px;
+    }
+    .form-titulSs{
+        font-weight: bold;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:210px ;  
+        letter-spacing: 3px;
+        margin-right: -10px;
+    }
+    .barra_busqueda2{
+        display: flex;
+        align-items: center;
+        background-color: rgb(173, 173, 173);
+        margin: 0 auto;
+        margin-top:-60px;
+        margin-left: 100px;
+        width: 300px;
+        height: 55px;
+        border: 2px solid black;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        
+    }
+    #donde_ir2{
+        font-size: 17px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
 }
 
 
