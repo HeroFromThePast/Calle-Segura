@@ -885,8 +885,8 @@ body{
 
     .map{
         position: relative;
-        width:834px;
-        height: 1194px;
+        width: 1440px;
+        height: 1024px;
         z-index: 0;
         background-image: url("../imgs/mapaMain.png");
         background-color: aquamarine;
@@ -905,8 +905,8 @@ body{
         background-color: rgb(173, 173, 173);
         margin: 0 auto;
         margin-top: 12px;
-        width: 335px;
-        height: 55px;
+        width: 510px;
+        height: 60px;
         border: 2px solid black;
         border-radius: 20px;
         justify-content: space-evenly;
@@ -922,11 +922,11 @@ body{
         width: 30px;
         height: 30px;
         border-radius: 30px;
-        margin-left: 150px;
+        margin-left: 335px;
         
     }
     .search_{
-        margin-left: 0px;
+        margin-left: 340px;
         margin-top: 7px;
         color: rgb(0, 0, 0);
         border: 20px solid rgb(72, 72, 72);
@@ -955,16 +955,16 @@ body{
     }
     
     #burbuja1{
-        top: 363px;
+        top: 365px;
         left: 111px;
     }
     #burbuja2{
-        top: 925px;
-        left: 422px;
+        top: 807px;
+        left: 563px;
     }
     #burbuja3{
         top: 531px;
-        left: 663px;
+        left: 1120px;
     }
     #burbuja4{
         top: 131px;
@@ -977,15 +977,15 @@ body{
     .bottom_menu{
         position: absolute;
         bottom: 0px;
-        width: 834px;
+        width: 1440px;
         height: 80px;
         background-color: gray;
         display:flex;
         overflow: hidden;
         align-items: center;
-        justify-content: space-evenly;
     }
     .footer_button{
+        position: relative;
         width: 60px;
         height: 60px;
         border-radius: 60px;
@@ -995,6 +995,20 @@ body{
         overflow: hidden;
         margin-bottom: 4px;
     }
+    #botonperfil{
+        left: -205px;
+    }
+    #botoncomentario{
+        left: 531px;
+    }
+    #botondisponible{
+        left: 367px;
+    }
+    #botonfavoritos{
+        left: 196px;
+    }
+
+
     #Generarruta{
         top: 250px;
         left: 0px;
@@ -1073,11 +1087,11 @@ body{
         background-size: 100%;
     }
     #comPrincipal{
-        left: 360px;
-        top: 418px;
+        left: 677px;
+        top: 373px;
     }
     .volver{
-        width: 834px;
+        width: 1440px;
         height: 565px;
     }
     .contenedor_comentario{
@@ -1087,7 +1101,8 @@ body{
         border-top-right-radius: 40px;
         background-color: gray;
         position: absolute;
-        top: 556px;
+        top: 505px;
+        left: 315px;
         align-items: center;
     }
     .contenido_comentario_perfil{
