@@ -1112,8 +1112,8 @@ body{
         position: absolute;
         display: inline-block;
         font-size: 40px;
-        width: 794px;
-        height: 611px;
+        width: 848px;
+        height: 620px;
         border-radius: 40px;
         top: 13px;
         left: 20px;
@@ -1192,26 +1192,22 @@ body{
         background-size: 100%;
     }
     .contenedor_comentario_escrito{
-        width: 834px;
-        height: 532px;
+        width: 890px;
+        height: 649px;
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
         background-color: gray;
         position: absolute;
-        top: 270px;
+        left: 292px;
+        top: 377px;
         align-items: center;
     }
     #comPrincipalescrito{
-        top: 134px;
-        left: 350px;
+        top: 227px;
+        left: 670px;
     }
     .teclado{
-        position: relative;
-        width: 834px;
-        height: 455px;
-        background-color: rgb(77, 77, 77);    
-        z-index: 1;
-        top: 471px;
+        width: 0px;
     }
 
 }
