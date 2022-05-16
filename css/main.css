@@ -1769,9 +1769,9 @@ body{
         margin-top : 10px;
         position: relative;
         height: 215px;
-        width: 650px;
+        width: 1350px;
         border-radius: 25px;
-        left: 83px;
+        left: 303px;
         font-size: 20px;
     }
     .icons8-burbuja-de-dialogo-vista2{
@@ -2161,6 +2161,10 @@ body{
         color: rgb(0, 0, 0);
         border: 20px solid rgb(72, 72, 72);
         border-radius: 20px;
+    }
+
+    #hist{
+        text-align: center;
     }
 }
 
