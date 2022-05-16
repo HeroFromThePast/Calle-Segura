@@ -45,13 +45,14 @@ body{
         top: 10px;
     }
     .nav_button{
-        border-radius: 25px;
+        border-radius: 50px;
         height: fit-content;
     }
     .back_button{
         width: fit-content;
         margin-left: 14px;
         margin-top: 10px;
+        border-radius: 50px;
         
     }
     .profile_pic{
@@ -1751,6 +1752,93 @@ body{
         font-weight: bold;
         margin-left: 45%;
     }
+    .form-titulo{
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 5%;
+        margin-top: 2%;
+        letter-spacing: 3px;
+    }
+
+    .form-input{
+        margin-bottom: 5px;
+        margin-top: -1%;
+    }
+    .form-checkbox{
+        margin-top: 30%;
+        margin-left: 500px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    
+    .form-input label{
+        display:block;
+        margin-top: 5px;
+        font-size: 20px;
+        color: black;
+        margin-left: 500px;
+    }
+    .form-input input{
+        width: 50%;
+        margin-left: 500px;
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 3px solid black;
+    }
+    
+    .form-input input:focus +label{
+        font-weight: bold;
+        
+    }
+    
+    .form-buttom input {
+        background: rgb(26, 23, 23);
+        color: rgb(0, 0, 0);
+        padding: 10px 40px;
+        font-weight: bold;
+        font-size: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;;
+        outline: none;
+    
+    
+    }
+    
+    .form-buttom input:hover{
+        background: rgb(41, 7, 36);
+        transition: 0.5s;
+    }
+    
+    .form_back{
+        border-radius: 25px;
+        height: fit-content;
+    }
+    .form-back{
+        width: fit-content;
+        margin-left: 500px;
+        margin-top: 21px;
+        
+    }
+    .form-send{
+        background: rgb(252, 252, 252);
+        color: rgb(0, 0, 0);
+        padding: 10px 40px;
+        margin-top: 10%;
+        font-size: 10px;
+        font-weight: bold;
+        font-size: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;;
+        outline: none;
+        
+    }
+   
 
 }
 
