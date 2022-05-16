@@ -16,6 +16,9 @@ function irA(enlace){
         if(enlace == 'dejarcomentario1.html'){
                 location.href = enlace;
         } 
+        if(enlace == 'gridLayoutEscritorio.html'){
+                location.href = enlace;
+        } 
 
         if(enlace == 'dejarcomentario2.html'){
                 location.href = enlace;
