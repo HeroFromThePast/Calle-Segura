@@ -1676,9 +1676,81 @@ body{
         grid-column: 5/span 4;
        background: url("../imgs/unicentro4.jpg");
     }
-
-
     
+    .back_button{
+        width: fit-content;
+        margin-left: 14px;
+        margin-top: -60px;
+        
+    }
+
+    .incio-input{
+        margin-bottom: 20px;
+        margin-top: 10%;
+    }
+    .incio-input label{
+        display: block;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 600px;
+        color: black;
+       
+    }
+    .incio-input input{
+        width: 30%;
+        margin-left:600px ;
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 4px solid rgb(20, 20, 20);
+    }
+    #email{
+        top: 27px;
+        left: 370px;
+    }
+    #password{
+        top: 127px;
+        left: 670px;
+    }
+    .incio-input input:focus +label{
+        font-weight: bold;
+        font-size: 0px;
+        margin-left:50px ;
+    }
+    
+    .incio-buttom input{
+        background: rgb(252, 252, 252);
+        color: rgb(0, 0, 0);
+        padding: 10px 40px;
+        margin-top: 10%;
+        font-size: 10px;
+        font-weight: bold;
+        font-size: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;;
+        outline: none;
+    }
+    .incio-buttom input:hover{
+        background: rgb(117, 117, 117);
+        transition: 0.5s;
+    }
+    
+    .incio-titulo{
+        font-weight: bold;
+        font-size: 90px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 5%;
+        margin-top: 0%;
+        letter-spacing: 3px;
+    }
+    .Olvide{
+        margin-top: 2%;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 45%;
+    }
 
 }
 
