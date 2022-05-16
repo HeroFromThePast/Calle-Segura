@@ -866,7 +866,136 @@ body{
         z-index: 1;
         top: 471px;
     }
+    .form-titulo{
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 5%;
+        margin-top: 2%;
+        letter-spacing: 3px;
+    }
 
+    .form-input{
+        margin-bottom: 5px;
+        margin-top: -1%;
+    }
+    .form-checkbox{
+        margin-top: 30%;
+        margin-left: 200px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    
+    .form-input label{
+        display:block;
+        margin-top: 5px;
+        font-size: 20px;
+        color: black;
+        margin-left: 200px;
+    }
+    .form-input input{
+        width: 50%;
+        margin-left: 200px;
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 3px solid black;
+    }
+    
+    .form-input input:focus +label{
+        font-weight: bold;
+        
+    }
+    
+    .form-buttom input {
+        background: rgb(26, 23, 23);
+        color: rgb(0, 0, 0);
+        padding: 10px 40px;
+        font-weight: bold;
+        font-size: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;;
+        outline: none;
+    
+    
+    }
+    
+    .form-buttom input:hover{
+        background: rgb(41, 7, 36);
+        transition: 0.5s;
+    }
+    
+    .form_back{
+        border-radius: 25px;
+        height: fit-content;
+    }
+    .form-back{
+        width: fit-content;
+        margin-left: 50px;
+        margin-top: 21px;
+        
+    }
+    .incio-input{
+        margin-bottom: 20px;
+        margin-top: 10%;
+    }
+    .incio-input label{
+        display: block;
+        margin-top: 5px;
+        font-size: 25px;
+        margin-left:90px ;
+        color: black;
+       
+    }
+    .incio-input input{
+        width:70%;
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 2px solid black;
+        margin-left:90px ;
+    }
+    .incio-input input:focus +label{
+        font-weight: bold;
+    }
+    
+    .incio-buttom input{
+        background: rgb(252, 252, 252);
+        color: rgb(0, 0, 0);
+        padding: 10px 40px;
+        margin-top: 10%;
+        font-size: 10px;
+        font-weight: bold;
+        font-size: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;;
+        outline: none;
+    }
+    .incio-buttom input:hover{
+        background: rgb(117, 117, 117);
+        transition: 0.5s;
+    }
+    
+    .incio-titulo{
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        letter-spacing: 3px;
+    }
+    .Olvide{
+        margin-top: 5%;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 30%;
+    }
+   
 }
 /*Para Escritorio ========================================================================================================================================================*/
 @media screen and (min-width: 1440px) {
@@ -1266,8 +1395,151 @@ body{
         grid-column: 5/span 4;
        background: url("../imgs/unicentro4.jpg");
     }
-   
+    .barra_busqueda2{
+        display: flex;
+        align-items: center;
+        background-color: rgb(173, 173, 173);
+        margin: 0 auto;
+        margin-top:-60px;
+        margin-left: 100px;
+        width: 450px;
+        height: 55px;
+        border: 2px solid black;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        
+    }
+    .form-titulo{
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        letter-spacing: 3px;
+    }
 
+    .form-input{
+        margin-bottom: 5px;
+        margin-top: -1%;
+    }
+    .form-checkbox{
+        margin-top: 30%;
+        margin-left: 500px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    
+    .form-input label{
+        display:block;
+        margin-top: 2px;
+        font-size: 20px;
+        color: black;
+        margin-left: 400px;
+    }
+    .form-input input{
+        width: 50%;
+        margin-left: 400px;
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 3px solid black;
+    }
+    
+    .form-input input:focus +label{
+        font-weight: bold;
+        
+    }
+    
+    .form-buttom input {
+        background: rgb(26, 23, 23);
+        color: rgb(0, 0, 0);
+        padding: 10px 40px;
+        font-weight: bold;
+        font-size: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;;
+        outline: none;
+    
+    
+    }
+    
+    .form-buttom input:hover{
+        background: rgb(41, 7, 36);
+        transition: 0.5s;
+    }
+    
+    .form_back{
+        border-radius: 25px;
+        height: fit-content;
+    }
+    .form-back{
+        width: fit-content;
+        margin-left: 50px;
+        margin-top: 21px;
+        
+    }
+
+    .Olvide{
+        margin-top: 5%;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 40%;
+    }
+    .incio-input{
+        margin-bottom: 20px;
+        margin-top: 10%;
+    }
+    .incio-input label{
+        display: block;
+        margin-top: 5px;
+        font-size: 25px;
+        margin-left:140px ;
+        color: black;
+       
+    }
+    .incio-input input{
+        width:70%;
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 2px solid black;
+        margin-left:140px ;
+    }
+    .incio-input input:focus +label{
+        font-weight: bold;
+    }
+    
+    .incio-buttom input{
+        background: rgb(252, 252, 252);
+        color: rgb(0, 0, 0);
+        padding: 10px 40px;
+        margin-top: 10%;
+        font-size: 10px;
+        font-weight: bold;
+        font-size: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;;
+        outline: none;
+    }
+    .incio-buttom input:hover{
+        background: rgb(117, 117, 117);
+        transition: 0.5s;
+    }
+    
+    .incio-titulo{
+        font-weight: bold;
+        font-size: 60px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        letter-spacing: 3px;
+    }
+    
 }
 /*Para televisor ========================================================================================================================================================*/
 @media screen and (min-width: 1920px) {
@@ -1820,7 +2092,7 @@ body{
     }
     .form-back{
         width: fit-content;
-        margin-left: 500px;
+        margin-left: 50px;
         margin-top: 21px;
         
     }
@@ -1839,7 +2111,57 @@ body{
         
     }
    
-
+    .barra_busqueda2{
+        display: flex;
+        align-items: center;
+        background-color: rgb(173, 173, 173);
+        margin: 0 auto;
+        margin-top:-60px;
+        margin-left: 200px;
+        width: 500px;
+        height: 55px;
+        border: 2px solid black;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        
+    }
+    .form-tituloS{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:200px ;  
+        letter-spacing: 3px;
+        margin-left:-1600px;
+    }
+    .form-tituloSs{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:20px ;  
+        letter-spacing: 3px;
+        margin-right: 1600px;
+    }
+    .form-titulSs{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 5%;
+        margin-top:110px ;  
+        letter-spacing: 3px;
+        margin-left: 0px;
+    }
+    .search_{
+        margin-left: 0px;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+        border: 20px solid rgb(72, 72, 72);
+        border-radius: 20px;
+    }
 }
 
 
