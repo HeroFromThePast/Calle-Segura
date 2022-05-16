@@ -28,11 +28,11 @@ function irA(enlace){
                 location.href = enlace;
         } 
 
-        if(enlace == 'InicioSesion.html'){
+        if(enlace == 'inicioSesion.html'){
                 location.href = enlace;
         } 
 
-        if(enlace == 'Registro.html'){
+        if(enlace == 'registro.html'){
                 location.href = enlace;
         } 
         if(enlace == 'index.html'){
