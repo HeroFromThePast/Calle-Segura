@@ -1055,6 +1055,13 @@ body{
         margin-left: 335px;
         
     }
+    .search{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: 205px;
+        
+    }
     .search_{
         margin-left: 340px;
         margin-top: 7px;
@@ -1297,8 +1304,8 @@ body{
         background-color: rgb(173, 173, 173);
         margin: 0 auto;
         margin-top:-60px;
-        margin-left: 100px;
-        width: 300px;
+        margin-left: 150px;
+        width: 400px;
         height: 55px;
         border: 2px solid black;
         border-radius: 20px;
@@ -1309,6 +1316,7 @@ body{
         font-size: 17px;
         margin-bottom: 15px;
         margin-top: 20px;
+        margin-left: 30px;
     }
     #label_dejar_comentario{
         width: 227px;
@@ -1395,20 +1403,7 @@ body{
         grid-column: 5/span 4;
        background: url("../imgs/unicentro4.jpg");
     }
-    .barra_busqueda2{
-        display: flex;
-        align-items: center;
-        background-color: rgb(173, 173, 173);
-        margin: 0 auto;
-        margin-top:-60px;
-        margin-left: 100px;
-        width: 450px;
-        height: 55px;
-        border: 2px solid black;
-        border-radius: 20px;
-        justify-content: space-evenly;
-        
-    }
+    
     .form-titulo{
         font-weight: bold;
         font-size: 40px;
