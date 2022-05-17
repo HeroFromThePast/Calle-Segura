@@ -12,13 +12,17 @@ function irA(enlace){
         if(enlace == 'vistacomentarios1.html'){
                 location.href = enlace;
         } 
+        if(enlace == 'vistacomentarios2.html'){
+                location.href = enlace;
+        }
+        if(enlace == 'vistacomentarios3.html'){
+                location.href = enlace;
+        }
 
         if(enlace == 'dejarcomentario1.html'){
                 location.href = enlace;
         } 
-        if(enlace == 'gridLayoutEscritorio.html'){
-                location.href = enlace;
-        } 
+        
 
         if(enlace == 'dejarcomentario2.html'){
                 location.href = enlace;
@@ -51,6 +55,9 @@ function irA(enlace){
         } 
 
         if(enlace == 'vistaFavoritos.html'){
+                location.href = enlace;
+        } 
+        if(enlace == 'gridLayoutEscritorio.html'){
                 location.href = enlace;
         } 
     

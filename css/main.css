@@ -1224,7 +1224,7 @@ body{
         height: 215px;
         width: 650px;
         border-radius: 25px;
-        left: 83px;
+        left: 390px;
         font-size: 20px;
     }
     .icons8-burbuja-de-dialogo-vista2{
@@ -1257,11 +1257,15 @@ body{
     .contenido_comentario_perfil{
         position: relative;
     }
+    #hist{
+        position: relative;
+        left: 344px;
+    }
     .contenido_comentario{
         position: absolute;
         display: inline-block;
         font-size: 40px;
-        width: 848px;
+        width: 795px;
         height: 620px;
         border-radius: 40px;
         top: 13px;
@@ -1803,7 +1807,7 @@ body{
         position: absolute;
         display: inline-block;
         font-size: 40px;
-        width: 848px;
+        width: 795px;
         height: 620px;
         border-radius: 40px;
         top: 13px;
